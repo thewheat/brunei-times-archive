@@ -1,7 +1,10 @@
 <html><head>
-		<title>Brunei Times Archive - Calendar view</title>
+		<title>Brunei Times Archive - Cover view</title>
 
 		<style>
+			* {
+				font-family: arial,sans-serif;
+			}
 
 			.month.odd {
 				background-color: #ededed;
@@ -18,6 +21,11 @@
 				clear: both;
 			}
 
+
+			.selected {
+				background-color: #F9CC9D;
+				font-weight: bold;
+			}
 
 			.tiled h2 {
 				padding: 5px;
@@ -1423,9 +1431,9 @@
 		</style>
 	</head>
 	<body>
-		<h1>Brunei Times Archive - Calendar view</h1>
+		<h1>Brunei Times Archive - Cover view</h1>
 		
-		<div>[<a href="index.html">List view</a>] | [<a href="calendar_view.html">Calendar view</a> (~30MB)]</div>
+		<div>[<a href="index.html">List view</a>] <span class='selected'>[<a href="covers.html">Cover view</a>]</span></div>
 		<h2>Jump to section</h2>
 
 		<ul>

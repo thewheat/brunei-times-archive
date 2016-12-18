@@ -2,6 +2,9 @@
 		<title>Brunei Times Archive - List view</title>
 
 		<style>
+			* {
+				font-family: arial,sans-serif;
+			}
 			.month.odd {
 				background-color: #ededed;
 			}
@@ -17,6 +20,11 @@
 				clear: both;
 			}
 
+			.selected {
+				background-color: #F9CC9D;
+				font-weight: bold;
+			}
+
 
 			.list .month {
 				float: left;
@@ -29,7 +37,7 @@
 				list-style-type: none;
 				text-indent: 0;
 				height: 38em;
-				width: 8em;
+				width: 9em;
 			}
 
 			.list .month h3 {
@@ -54,7 +62,7 @@
 	<body>
 		<a name="top"></a>
 		<h1>Brunei Times Archive - List view</h1>
-		<div>[<a href="index.html">List view</a>] [<a href="calendar_view.html">Calendar view</a> (~30MB)]</div>
+		<div><span class="selected">[<a href="index.html">List view</a>]</span> [<a href="covers.html">Cover view</a> (~30MB)]</div>
 		<h2>Jump to section</h2>
 		<ul>
 			<li><a href="#2013">2013</a></li>
